@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --navbar-height: 4rem;
+}
+
+main {
+  min-height: calc(100vh - var(--navbar-height));
+  width: 100%;
+}
+
+.page-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+
