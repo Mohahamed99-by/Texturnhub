@@ -26,7 +26,7 @@ const ProtectedRoute = ({ children }) => {
     }, []);
 
     if (loading) {
-        return <div>جارٍ التحميل...</div>;
+        return <div>Loading...</div>;
     }
 
     if (!isSubscribed) {

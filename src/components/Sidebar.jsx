@@ -8,7 +8,7 @@ const Sidebar = ({ activeSection, setActiveSection, isSidebarOpen, toggleSidebar
     const [unreadMessageCount, setUnreadMessageCount] = useState(0);
     const [notifications, setNotifications] = useState([]); // لتخزين الإشعارات
 
-    // جلب إشعارات الرسائل غير المقروءة عند التحميل
+    // جلب إشعارات الرسائل غير المقروءة عند ال
     useEffect(() => {
         const token = localStorage.getItem('token');
         if (!token) return;

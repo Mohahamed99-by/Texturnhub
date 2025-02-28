@@ -15,16 +15,16 @@ const Success = () => {
           { headers: { Authorization: `Bearer ${token}` } }
         )
         .then(() => {
-          alert('تم تفعيل الاشتراك بنجاح!');
+          alert('Subscription activated successfully!');
         })
         .catch(err => {
           console.error('Activation error:', err);
-          alert('فشل تفعيل الاشتراك.');
+          alert('Subscription activation failed.');
         });
     }
   }, []);
 
-  return <h2>تمت العملية بنجاح، شكرًا لاشتراكك!</h2>;
+  return <h2>Transaction successful, thank you for subscribing!</h2>;
 };
 
 export default Success;

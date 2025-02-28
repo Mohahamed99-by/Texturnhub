@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cancel = () => {
-  return <h2>تم إلغاء الاشتراك، يمكنك المحاولة مرة أخرى.</h2>;
+  return <h2>Subscription canceled, you can try again.</h2>;
 };
 
 export default Cancel;
